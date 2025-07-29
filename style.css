@@ -52,6 +52,7 @@ header{
     top: 0;
     padding: 15px 0;
     z-index: 1000;
+    overflow-x:hidden;
 }
 
 nav{
@@ -107,6 +108,8 @@ nav{
 }
 
 /*_____________ Responsive Nav bar _____________*/
+
+
 @media (max-width: 1024px) {
     .nav-menu li span {
         display: none; /* Hide text for nav links */
@@ -223,6 +226,9 @@ nav{
 }
 
 
+/*_____________ Responsive hero-section _____________*/
+
+
 @media (max-width: 1024px) {
     .hero-text{
         width: 100%;
@@ -299,6 +305,10 @@ nav{
     margin: 0;
 }
 
+
+/*_____________ Responsive work section _____________*/
+
+
 @media (max-width: 1024px) {
     .how-we-work-content {
         max-width: 100%;
@@ -325,6 +335,14 @@ nav{
         margin: 20px;
         padding: 0;
         width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .step {
+        margin: 40px;
+        width: 100%;
     }
 }
 
@@ -382,6 +400,8 @@ nav{
     color: #666;
 }
 
+/*_____________ Responsive features section _____________*/
+
 @media (max-width: 1024px) {
     .cards-container{
         padding: 0px;
@@ -395,10 +415,6 @@ nav{
 }
 
 @media (max-width: 768px) {
-    .cards-container{
-        padding: 0px;
-        gap: 0px;
-    }
 
     .card {
         width: 100%;
