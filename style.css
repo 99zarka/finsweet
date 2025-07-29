@@ -1,5 +1,12 @@
 /*_____________ Global _____________*/
 
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
 body{
     font-family:'Inter',sans-serif;
     margin:0;
@@ -17,7 +24,7 @@ section{
 }
 
 .container{
-    max-width:80%;
+    max-width:90%;
     margin:0 auto;
 }
 
@@ -143,12 +150,15 @@ nav{
 
 .hero-content {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     gap: 48px;
+    padding: 40px 0;
+    justify-content: space-between;
+
 }
 .hero-text {
-    width: 50%;
+    width: 45%;
 }
 
 .hero-text h1 {
@@ -176,11 +186,15 @@ nav{
     border-radius:50px;
     text-decoration:none;
     transition:background-color .3s ease;
+    text-align: center;
+
 }
+
 .btn-primary:hover{
     background-color:#fcd980a1;
     color: white;
 }
+
 .btn-secondary{
     background-color:transparent;
     color:#fff;
@@ -189,6 +203,7 @@ nav{
     border:transparent 1px solid;
     text-decoration:none;
     transition:border-color .3s ease,color .3s ease;
+    text-align: center;
 }
 
 .btn-secondary:hover{
@@ -197,7 +212,7 @@ nav{
 }
 
 .hero-image {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: flex-end;
 }
@@ -205,6 +220,19 @@ nav{
 .hero-image img {
     width: 100%;
 }
+
+
+@media (max-width: 1024px) {
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-image {
+        width: 100%;;
+    }
+
+}
+
 
 /*_____________ Work section _____________*/
 
@@ -268,6 +296,11 @@ nav{
 .step p {
     color: #666;
     margin: 0;
+}
+
+@media (max-width: 1024px) {
+
+
 }
 
 /*_____________ Features section _____________*/
