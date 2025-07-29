@@ -111,14 +111,14 @@ nav{
 }
 
 .hero-text h1 {
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 24px;
 }
 
 .hero-text p{
-    font-size:18px;
+    font-size:1.125rem;
     margin-bottom:32px;
 }
 
@@ -179,7 +179,7 @@ nav{
 }
 
 .how-we-work-left h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 16px;
 }
 
@@ -219,7 +219,7 @@ nav{
 }
 
 .step h3 {
-    font-size: 28px;
+    font-size: 1.75rem;
     margin: 12px 0;
     font-weight: 500;
 }
@@ -236,12 +236,12 @@ nav{
 }
 
 .features-header span{
-    font-size:14px;
+    font-size:0.875rem;
     font-weight: bold;
 }
 
 .features-header h2{
-    font-size:32px;
+    font-size:2rem;
     margin:8px auto;
 }
 
@@ -267,13 +267,13 @@ nav{
 }
 
 .card .icon-wrapper {
-    font-size: 30px;
+    font-size: 1.875rem;
     color: #5239fa;
     margin-bottom: 16px;
 }
 
 .card h3{
-    font-size:20px;
+    font-size:1.25rem;
     font-weight:bold;
     margin-bottom:8px;
 }
@@ -311,7 +311,7 @@ footer{
 }
 
 .footer-contact h1{
-    font-size:50px;
+    font-size:3.125rem;
     margin-bottom:20px;
     margin-top: 0;
 }
