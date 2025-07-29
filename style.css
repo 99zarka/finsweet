@@ -269,7 +269,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
-    width: 60%;
+    width: calc(65% - 50px);
 }
 
 .step {
@@ -278,7 +278,7 @@ nav{
     align-items: flex-start;
     transition:transform .2s ease-in-out;
     padding: 20px;
-    width: 41%;
+    width: calc(50% - 40px);
 }
 
 
@@ -300,13 +300,31 @@ nav{
 }
 
 @media (max-width: 1024px) {
+    .how-we-work-content {
+        max-width: 100%;
+    }
+
     .how-we-work-left {
         width: 100%;
+        text-align: center;
+    }
+
+    .how-we-work-left p {
+        margin: 20px auto;
     }
 
     .steps {
         width: 100%;
-        justify-content: center;
+        padding: 0px;
+        justify-content: space-between;
+        margin: auto;
+        gap: 0px;
+    }
+
+    .step {
+        margin: 20px;
+        padding: 0;
+        width: calc(50% - 40px);
     }
 }
 
